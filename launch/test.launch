@@ -1,0 +1,5 @@
+<launch>
+  <node name="image_loader" pkg="wm_image_loader" type="node.py" >
+    <param name="image_path" value="$(find wm_image_loader)/image/test.JPG"/>
+  </node>
+</launch>

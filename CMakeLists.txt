@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   cv_bridge
   message_generation
+  std_srvs
 )
 
 
@@ -18,11 +19,6 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
 
 
 ## Generate added messages and services with any dependencies listed here
@@ -42,4 +38,3 @@ include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
 )
-
